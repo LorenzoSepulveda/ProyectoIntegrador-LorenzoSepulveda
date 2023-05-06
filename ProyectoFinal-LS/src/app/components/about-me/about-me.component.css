@@ -3,10 +3,21 @@
 }
 
 div{
-    background-color: #6EACD9;
+    background-color: #C5DDEF;
     text-align: center;
 }
 
+@media (width > 768px ){
+    #profile-logo{
+        position: absolute;
+        width: 13%;
+        border-radius: 100%;
+        left: 5%;
+        top: 325px;
+        background-color: rgb(48, 16, 124);
+    }
+}
+ /*
 @media (min-width: 576px){
 
     #profile-logo{
@@ -32,10 +43,11 @@ div{
     }
 
 }
-
+*/
 
 #name{
     font-weight: bold;
-    margin-top: 20%;
+    margin-top: 10%;
+    font-size: 20px;
 }
 
