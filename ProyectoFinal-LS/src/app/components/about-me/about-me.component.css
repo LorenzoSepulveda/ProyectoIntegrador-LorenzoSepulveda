@@ -1,5 +1,6 @@
 .row{
     padding: 20px;
+    margin: 0%;
 }
 
 div{
@@ -26,7 +27,7 @@ div{
         width: 30%;
         border-radius: 100%;
         left: 35%;
-        top: 400px;
+        top: 575px;
     }
 
 }
