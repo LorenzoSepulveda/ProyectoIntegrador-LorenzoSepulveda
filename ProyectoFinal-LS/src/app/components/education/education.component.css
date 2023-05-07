@@ -3,7 +3,11 @@
 }
 
 div{
-    background-color: #C5DDEF;
+    background-color: #C5DDFE;
+}
+
+#education{
+    text-decoration: underline;
 }
 
 h1,h3{

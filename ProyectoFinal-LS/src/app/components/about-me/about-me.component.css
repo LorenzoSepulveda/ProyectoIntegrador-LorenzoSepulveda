@@ -3,8 +3,20 @@
 }
 
 div{
-    background-color: #C5DDEF;
+    background-color: #C5DDFE;
     text-align: center;
+    justify-content: center;
+}
+
+#name{
+    font-weight: bold;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+#title{
+    font-size: 18px;
+    font-weight: 400;
 }
 
 @media (width > 0px){
@@ -15,7 +27,6 @@ div{
         border-radius: 100%;
         left: 35%;
         top: 400px;
-        background-color: #fff;
     }
 
 }
@@ -28,7 +39,6 @@ div{
         border-radius: 100%;
         left: 5%;
         top: 455px;
-        background-color: #fff;
     }
 
 }
@@ -40,7 +50,6 @@ div{
         border-radius: 100%;
         left: 5%;
         top: 425px;
-        background-color: #fff;
     }
 }
 
@@ -51,7 +60,6 @@ div{
         border-radius: 100%;
         left: 5%;
         top: 425px;
-        background-color: #fff;
     }
 }
  
@@ -62,24 +70,27 @@ div{
         border-radius: 100%;
         left: 5%;
         top: 375px;
-        background-color: #fff;
     }
 }
 
-@media (width > 1000px ){
+@media (width > 1200px ){
     #profile-logo{
         position: absolute;
         width: 13%;
         border-radius: 100%;
         left: 5%;
         top: 325px;
-        background-color: #fff;
+    }
+
+    #name{
+        font-size: 30px;
+    }
+
+    span p{
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
-#name{
-    font-weight: bold;
-    margin-top: 10%;
-    font-size: 20px;
-}
+
 
