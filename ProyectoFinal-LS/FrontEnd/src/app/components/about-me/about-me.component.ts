@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core'; 
+import { Component, Injectable, OnInit } from '@angular/core'; 
 import { persona } from 'src/app/model/persona.model'; 
 import { PersonaService } from 'src/app/services/persona.service'; 
 
@@ -13,7 +13,8 @@ export class AboutMeComponent implements OnInit {
     
     constructor (public personaService: PersonaService) { } 
     
-    ngOnInit(): void { this.personaService.getPersona().subscribe(data => {this.persona = data}) 
-  
-    } 
+    ngOnInit(): void { 
+      this.personaService.getPersona().subscribe(data => {this.persona = data}) 
+    }
+
 }
