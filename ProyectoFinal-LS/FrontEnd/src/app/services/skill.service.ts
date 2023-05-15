@@ -9,7 +9,7 @@ import { Skill } from '../model/skill';
 })
 export class SkillService {
 
-  URL = environment.URL + 'skill';
+  URL = environment.authUrlSkills + 'skill';
 
   constructor(private httpClient: HttpClient) { }
 
@@ -30,7 +30,7 @@ export class SkillService {
   }
 
   public delete(id:number): Observable<any>{
-    this.httpClient.delete(this.URL + `delete/${id}`);
+    return this.httpClient.delete(this.URL + `delete/${id}`);
   }
 
 }
