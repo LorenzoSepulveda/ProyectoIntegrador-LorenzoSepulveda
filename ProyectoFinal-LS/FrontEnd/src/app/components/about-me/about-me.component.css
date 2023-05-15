@@ -4,9 +4,13 @@
 }
 
 div{
-    background-color: #C5DDFE;
+    background-color: #303131;
     text-align: center;
     justify-content: center;
+}
+
+p, h1{
+    color: aliceblue;
 }
 
 #nombre{
