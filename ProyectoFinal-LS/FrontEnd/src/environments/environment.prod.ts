@@ -1,8 +1,8 @@
 export const environment = {
   production: true,
-  apiUrlEdu: 'https://backendngaporfolio.onrender.com/educacion/',
-  apiUrlPer: 'https://backendngaporfolio.onrender.com/personas/',
-  apiUrlExp: 'https://backendngaporfolio.onrender.com/explab/',
-  authUrl: 'https://backendngaporfolio.onrender.com/auth/',
+  apiUrlEdu: 'https://backend-prueba-ls.onrender.com/educacion/',
+  apiUrlPer: 'https://backend-prueba-ls.onrender.com/personas/',
+  apiUrlExp: 'https://backend-prueba-ls.onrender.com/explab/',
+  authUrl: 'https://backend-prueba-ls.onrender.com/auth/',
   authUrlSkills: ''
 };
